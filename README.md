@@ -8,12 +8,6 @@ Run as Administrator
 - *Audit Logon Success and Failure* must be enabled in Group Policy for Security-Auditing 4624 Events
 - LocalSessionManager Events require no pre-requisites
 
-    To import module, use:  
-	```PowerShell
-	PS C:\>. .\Get-UserRDPLogon.ps1
-	```
-
-  
 ## Example Events
     The categories below describe which Events withing which Providers are searched:
       
@@ -100,8 +94,10 @@ Run as Administrator
 Max - This is the maximum number of events you want to search through.
  
 # Example Usage
+To import module, use:  
 ```PowerShell
-Get-UserRDPLogon -User jcarter -Server sarah -Days 5
+PS C:\>. .\Get-UserRDPLogon.ps1
+PS C:\>Get-UserRDPLogon -User jcarter -Server sarah -Days 5
 ```
 
 ## Resources Used
