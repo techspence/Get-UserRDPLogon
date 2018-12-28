@@ -1,10 +1,12 @@
 # Get-UserRDPLogon
 A PowerShell module that searches Windows RDP Logon events for a specified user, on a specified serve, for a specified timeframe.
 
-## Assumptions: Run as Administrator
+## Assumptions
+Run as Administrator
 
-## Requirements: 'Audit Logon Success and Failure' must be enabled in Group Policy for Security-Auditing 4624 Events.
-                 *LocalSessionManager Events require no pre-requisites.
+## Requirements 
+'Audit Logon Success and Failure' must be enabled in Group Policy for Security-Auditing 4624 Events.
+*LocalSessionManager Events require no pre-requisites.
 
     To import module, use:  PS C:\>. .\Get-UserRDPLogon.ps1
 
@@ -84,18 +86,12 @@ A PowerShell module that searches Windows RDP Logon events for a specified user,
     -----------------------------------------------------------------------
     
 # Parameters
-   Server
-   This is the system (workstation or server) that you want to search.
-
-  
-  Days
-   This is the number of days prior to today you want to search.
-
-  
-  Max
-   This is the maximum number of events you want to search through.
-
-  
+```
+Server - This is the system (workstation or server) that you want to search.
+Days - This is the number of days prior to today you want to search.
+Max - This is the maximum number of events you want to search through.
+```
+ 
 # Example Usage
 ```PowerShell
 Get-UserRDPLogon -User jcarter -Server sarah -Days 5
