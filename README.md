@@ -1,5 +1,5 @@
 # Get-UserRDPLogon
-A PowerShell module that searches Windows RDP Logon events for a specified user, on a specified serve, for a specified timeframe.
+A PowerShell module that searches Windows RDP Logon events for a specified user, on a specified server, for a specified timeframe.
 
 ## Assumptions
 Run as Administrator
