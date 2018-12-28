@@ -5,8 +5,8 @@ A PowerShell module that searches Windows RDP Logon events for a specified user,
 Run as Administrator
 
 ## Requirements 
-'Audit Logon Success and Failure' must be enabled in Group Policy for Security-Auditing 4624 Events.
-*LocalSessionManager Events require no pre-requisites.
+- *Audit Logon Success and Failure* must be enabled in Group Policy for Security-Auditing 4624 Events.
+- LocalSessionManager Events require no pre-requisites.
 
     To import module, use:  
 	```PowerShell
