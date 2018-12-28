@@ -89,13 +89,15 @@ Run as Administrator
     -----------------------------------------------------------------------
     
 # Parameters
-```
-* = Mandatory 
+**BOLD** = Mandatory 
+
 **User** - This is the user you want to search logon events for.
+
 **Server** - This is the system (workstation or server) that you want to search.
+
 **Days** - This is the number of days prior to today you want to search.
+
 Max - This is the maximum number of events you want to search through.
-```
  
 # Example Usage
 ```PowerShell
