@@ -94,7 +94,6 @@ Run as Administrator
 Max - This is the maximum number of events you want to search through.
  
 # Example Usage
-To import module, use:  
 ```PowerShell
 PS C:\>. .\Get-UserRDPLogon.ps1
 PS C:\>Get-UserRDPLogon -User jcarter -Server sarah -Days 5
